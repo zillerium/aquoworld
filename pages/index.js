@@ -30,6 +30,20 @@ function Home() {
 	     <Head>
         <title>Aquo DeFi Protocol</title>
         <meta name="description" content="Aquo" />
+	   {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aquo.world" />
+        <meta property="og:title" content="Aquo" />
+        <meta property="og:description" content="Aquo" />
+        <meta property="og:image" content="https://aquo.world/aquologo10.png" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="https://aquo.world/aquologo10.png" />
+        <meta name="twitter:url" content="https://aquo.world" />
+        <meta name="twitter:title" content="Aquo" />
+        <meta name="twitter:description" content="Aquo" />
+        <meta name="twitter:image" content="https://aquo.world/aquologo10.png" />
+
         {/* Other meta tags */}
       </Head>
 
