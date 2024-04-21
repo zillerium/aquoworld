@@ -377,3 +377,19 @@ body {
   padding-bottom: 0.5rem; /* Space between the title and the tabs */
 }
 
+/* HeroSection.module.css */
+
+.bannerTitle {
+  position: relative;
+  width: 100%;
+  height: 400px; /* You can set the height as you prefer */
+  display: flex;
+  align-items: center; /* This vertically centers the text in the hero section */
+  justify-content: center; /* This horizontally centers the text */
+  text-align: center;
+  color: white; /* White text color */
+}
+
+/* Additional styles if needed */
+
+
