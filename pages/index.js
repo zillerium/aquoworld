@@ -27,6 +27,12 @@ function Home() {
 
   return (
     <div>
+	     <Head>
+        <title>Aquo DeFi Protocol</title>
+        <meta name="description" content="Aquo" />
+        {/* Other meta tags */}
+      </Head>
+
 	  <div className="mb-5">
 	  <BannerTitle />
 	  </div>
