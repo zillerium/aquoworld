@@ -16,6 +16,8 @@ import UseCaseContainer from '../components/UseCaseContainer';
 import BannerTitle from '../components/BannerTitle';
 import Roadmap from '../components/Roadmap';
 import Story from '../components/Story';
+import Logos from '../components/Logos';
+import VideoManager2 from '../components/VideoManager2';
 
 function Home() {
   const { userAddress, setUserAddress } = useContext(WalletContext);
@@ -32,9 +34,17 @@ function Home() {
 	    <h1 className="text-center">Our Story</h1>
         <Story />
       </div>
+	  <div id="video-section">
+	    <h1 className="text-center">The Aquo DeFi Protocol</h1>
+<VideoManager2 />
+	  </div>
       <div id="AboutUs">
         <AboutUs />
       </div>
+	  <div>
+	    <h1 className="text-center">DeFi Protocols</h1>
+<Logos />
+	  </div>
 	        <div id="TechTabs" className="tech-tabs-background">
         <h1 className="tech-tabs-title">Our Technologies</h1>
 

@@ -5,7 +5,7 @@ function AboutUs() {
     <Container className="my-5">
       <Row className="mb-4">
         <Col>
-          <h1 className="text-center">Passion & Excellence</h1>
+          <h1 className="text-center">About Us: Passion & Excellence</h1>
         </Col>
       </Row>
 
