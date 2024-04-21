@@ -21,6 +21,8 @@ const Navigation = () => {
           <Nav.Link onClick={() => scrollToSection('Market')}>Market</Nav.Link>
           <Nav.Link onClick={() => scrollToSection('TechTabs')}>Tech</Nav.Link>
           <Nav.Link onClick={() => scrollToSection('Pitch')}>Pitch</Nav.Link>
+          <Nav.Link onClick={() => scrollToSection('Roadmap')}>Roadmap</Nav.Link>
+          <Nav.Link onClick={() => scrollToSection('Story')}>Story</Nav.Link>
           {/* ... other Nav.Links ... */}
         </Nav>
       </Navbar.Collapse>

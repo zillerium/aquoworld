@@ -13,8 +13,8 @@ const BannerTitle = () => {
         quality={100}
       />
       <Container className="position-relative" style={{ zIndex: 10 }}>
-        <h1 className="text-black">Aquo DeFi Optimization</h1>
-        <p className="text-black-50">DeFi Protocols Composed and Optimized</p>
+        <h1 className="text-black">Aquo DeFi Protocol</h1>
+        <p className="text-black-50">Based on DeFi Composition and Reinforcement Learning</p>
       </Container>
     </div>
   );

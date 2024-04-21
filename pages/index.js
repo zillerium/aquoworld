@@ -14,6 +14,8 @@ import Team from '../components/Team';
 import Pitch from '../components/Pitch';
 import UseCaseContainer from '../components/UseCaseContainer';
 import BannerTitle from '../components/BannerTitle';
+import Roadmap from '../components/Roadmap';
+import Story from '../components/Story';
 
 function Home() {
   const { userAddress, setUserAddress } = useContext(WalletContext);
@@ -23,10 +25,13 @@ function Home() {
 
   return (
     <div>
-	  <div>
-
+	  <div className="mb-5">
 	  <BannerTitle />
 	  </div>
+      <div id="Story">
+	    <h1 className="text-center">Our Story</h1>
+        <Story />
+      </div>
       <div id="AboutUs">
         <AboutUs />
       </div>
@@ -38,16 +43,21 @@ function Home() {
       <div id="Team">
         <Team />
       </div>
-	  <div>
-<UseCaseContainer />
-	  </div>
       <div id="Pitch">
         <Pitch />
       </div>
-      <div id="Market">
-        <h1 >Markets</h1>
+
+      <div id="Market" >
+	    <h1 className="text-center">Markets</h1>
+
         <Market />
       </div>
+	  <div id="Roadmap">
+	  <Roadmap />
+	  </div>
+	  <div>
+<UseCaseContainer />
+	  </div>
     </div>
   );
 }
