@@ -6,7 +6,8 @@ const techTabContents = [
   {
     eventKey: "tech1",
     title: "Reinforcement Learning",
-    content: "We used reinforcement and PyTorch to get the rewards and observations to optimize Aquo transaction",
+    content: "We used reinforcement and PyTorch to get the rewards and observations to optimize Aquo transactions.:w
+	  ",
     imageUrl: "rl.png", // replace with the path to your image
   },
   {

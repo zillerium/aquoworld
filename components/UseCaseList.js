@@ -41,6 +41,27 @@
       imageUrl: "access.png",
       page: 6
     },
+    {
+      title: "Developing Nations",
+      category: "Infrastructure",
+      description: "An agent model allows users to top-up with cash and then use DeFi DApps.",
+      imageUrl: "infrastructure.png",
+      page: 7
+    },
+    {
+      title: "Tokenization",
+      category: "RWAs",
+      description: "Real-world assets (RWAs) can be tokenized and integrated into other DeFi DApps.",
+      imageUrl: "rwatokenization.png",
+      page: 8
+    },
+    {
+      title: "Decentralized Energy",
+      category: "Energy",
+      description: "Locally generated energy can be traded by composed decentralized energy markerts.",
+      imageUrl: "energyusecase.png",
+      page: 9
+    },
     // ... Add more case studies as needed
   ];
 

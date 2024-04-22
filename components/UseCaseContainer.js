@@ -6,6 +6,9 @@ import UseCase3 from './UseCase3';
 import UseCase4 from './UseCase4';
 import UseCase5 from './UseCase5';
 import UseCase6 from './UseCase6';
+import UseCase7 from './UseCase7';
+import UseCase8 from './UseCase8';
+import UseCase9 from './UseCase9';
 
 const UseCasesContainer = () => {
     const useCaseRefs = {
@@ -15,6 +18,9 @@ const UseCasesContainer = () => {
         useCase4Ref: useRef(null),
         useCase5Ref: useRef(null),
         useCase6Ref: useRef(null),
+        useCase7Ref: useRef(null),
+        useCase8Ref: useRef(null),
+        useCase9Ref: useRef(null),
     };
 
     const handleLearnMoreClick = (key) => {
@@ -40,6 +46,9 @@ const UseCasesContainer = () => {
             <UseCase4 ref={useCaseRefs.useCase4Ref} />
             <UseCase5 ref={useCaseRefs.useCase5Ref} />
             <UseCase6 ref={useCaseRefs.useCase6Ref} />
+            <UseCase7 ref={useCaseRefs.useCase7Ref} />
+            <UseCase8 ref={useCaseRefs.useCase8Ref} />
+            <UseCase9 ref={useCaseRefs.useCase9Ref} />
         </div>
     );
 };
