@@ -35,7 +35,8 @@ const BannerTitle = () => {
         <Button onClick={scrollToVideo} variant="primary" className="me-2">
           Learn More
         </Button>
-        <Button variant="primary"  onClick={scrollToDeck}>Pitchdeck</Button>
+        <Button variant="primary"  onClick={scrollToDeck} className="me-2">Pitchdeck</Button>
+        <Button variant="primary"  onClick={scrollToDeck}>Whitepaper</Button>
       </Container>
     </div>
   );
